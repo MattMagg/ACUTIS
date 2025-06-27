@@ -1,0 +1,12 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
