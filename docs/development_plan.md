@@ -3,8 +3,9 @@
 This document outlines high-level stages for building ACUTIS. The timeline spans multiple months and focuses on incremental progress rather than rushing to a finished system.
 
 ## Stage 1: Requirements & Research
-- Study existing documents and gather performance goals.
-- Identify hardware constraints and safety considerations.
+- Study the proposal and patent to confirm that ACUTIS relies on a Robotic Utility Pole Inspection Collar (RUPIC) performing through-transmission scans.
+- Gather performance goals and constraints from these sources.
+- Identify safety considerations for operating the collar on live utility poles.
 
 ## Stage 2: Simulation Foundation
 - Maintain a lightweight environment to model components.
@@ -12,7 +13,7 @@ This document outlines high-level stages for building ACUTIS. The timeline spans
 - Introduce simulation and scanner concepts to exercise the planned workflow.
 
 ## Stage 3: Hardware Prototypes
-- Build an initial collar mechanism and design the air-coupled transducer pair.
+- Build an initial RUPIC collar mechanism and design the air-coupled transducer pair for through-transmission operation.
 - Evaluate basic data acquisition strategies and verify signal quality.
 
 ## Stage 4: Data Acquisition Pipeline

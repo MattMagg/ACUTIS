@@ -4,14 +4,15 @@ This plan guides the agent in gradually building the ACUTIS repository. It summa
 
 ## 1. Requirements & Research
 - Thoroughly review the proposal and patent to capture functional goals and constraints.
-- Identify key performance metrics for through-transmission scanning.
+- Note that ACUTIS uses a Robotic Utility Pole Inspection Collar (RUPIC) and relies on through-transmission measurements.
+- Identify key performance metrics for this scanning technique.
 
 ## 2. Architecture Design
 - Outline hardware components: transducer pair, mechanical collar, acquisition electronics.
 - Define software modules for sensor control, movement coordination, and data processing.
 
 ## 3. Prototype Development
-- Produce an initial collar mechanism capable of vertical movement.
+- Produce an initial RUPIC collar mechanism capable of vertical movement along the pole.
 - Develop firmware to operate the collar and trigger ultrasonic pulses.
 
 ## 4. Signal Acquisition Module
