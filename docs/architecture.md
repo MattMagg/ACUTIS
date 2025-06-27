@@ -8,5 +8,7 @@ This document outlines the initial architecture based on the high level plan. It
 - **Data Acquisition**: Coordinates hardware elements and collects readings for each collar position.
 - **Processing**: Functions that analyze captured signals and extract useful metrics.
 - **Command Line Interface**: Entry points for running simple simulated scans and demonstrating the workflow.
+- **Simulation**: Provides fake signals so development can continue without hardware.
+- **Scanner**: High level orchestrator that ties acquisition and processing together.
 
 Future iterations will expand these components into full-featured modules that interact with real devices and provide sophisticated analysis.

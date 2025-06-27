@@ -1,9 +1,24 @@
 """Pseudocode for a simple command line interface."""
 
-# Pseudocode Outline:
-# - Parse a list of positions from the command line
-# - Create transducer and collar objects
-# - Run a scan over the positions and print results
+# A basic CLI will allow developers to experiment with the pseudocode modules.
+# It is intentionally lightweight and prints simulated results.
 
-pass
+from .data_acquisition import DataAcquisition
+from .processing import process_signal
+
+
+def main(args=None):
+    """Entry point for running a simulated scan."""
+    # Parse positions from the command line (args or sys.argv)
+    positions = []  # e.g. [0, 10, 20]
+
+    daq = DataAcquisition()
+    profile = daq.scan_profile(positions)
+    readings = [amp for _, amp in profile]
+
+    processed, metrics = process_signal(readings)
+    print("Profile:", profile)
+    print("Processed:", processed)
+    print("Metrics:", metrics)
+
 

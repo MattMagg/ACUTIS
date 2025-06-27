@@ -9,6 +9,7 @@ This document outlines high-level stages for building ACUTIS. The timeline spans
 ## Stage 2: Simulation Foundation
 - Maintain a lightweight codebase to model components.
 - Use simple scripts to explore collar motion and signal capture workflows.
+- Introduce simulation and scanner modules to exercise the pseudocode pipeline.
 
 ## Stage 3: Hardware Prototypes
 - Build an initial collar mechanism and experiment with air-coupled transducers.
