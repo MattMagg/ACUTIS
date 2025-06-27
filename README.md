@@ -5,9 +5,6 @@ ACUTIS is an early stage concept currently represented by a collection of projec
 ## Available Documents
 
 - **ACUTIS Main Proposal** – overview of the concept
-- **ACUTIS Summary** – concise description of the project
-- **Pitch Deck ACUTIS** – presentation slides for stakeholders
-- **Invention Disclosure Form** – preliminary intellectual property filing
 - **ProvisionalPatent ACUTIS** – provisional patent paperwork
 
 All documentation is provided in RTF format in the repository root. The original
