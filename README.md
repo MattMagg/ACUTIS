@@ -1,6 +1,6 @@
 # ACUTIS
 
-ACUTIS is an early stage concept currently represented by a collection of project documents. This repository lays the groundwork for future development and organization of the idea.
+ACUTIS is an early stage concept represented only by project documents and descriptive notes. No working code has been written yet. The repository simply organizes ideas and provides a place to collect design discussions as the system evolves.
 
 ## Available Documents
 
@@ -10,17 +10,18 @@ ACUTIS is an early stage concept currently represented by a collection of projec
 - **Invention Disclosure Form** – preliminary intellectual property filing
 - **ProvisionalPatent ACUTIS** – provisional patent paperwork
 
-All documentation is provided as PDF files in the repository root. Additional notes can be kept inside the `docs/` directory.
+All documentation is provided as PDF or RTF files in the repository root. Additional notes can be kept inside the `docs/` directory.
 
 ## Repository Structure
 
 The following directories provide a starting framework:
 
 - `docs/` – supplementary design notes and references
-- `src/` – future source code
-- `tests/` – test materials for any code that will be added later
+- `docs/notes/` – short descriptions of proposed modules and an overall workflow summary
+- `docs/internal_agent_plan.md` – roadmap used by the agent to guide repository updates
+- `tests/` – placeholder test suite
 
-This layout is intentionally minimal to keep the focus on concept exploration. Detailed implementation and scripts will come later as the project matures.
+The notes outline ideas for hardware, collar movement, data acquisition, signal processing, and scanning. They exist purely as planning material and contain no executable code.
 
 ## License
 
