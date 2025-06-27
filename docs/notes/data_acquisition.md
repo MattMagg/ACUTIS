@@ -5,5 +5,6 @@ The data acquisition process will coordinate collar movement with the ultrasonic
 - Simple routines for moving the collar to each height in a scan profile.
 - Collection of raw amplitudes and timing information from the sensors.
 - Storage of readings for later processing and analysis.
+- Providing clean input for the scanner workflow described in `scanner.md`.
 
 Implementation details will depend on the final hardware, so this note serves as a placeholder until prototypes are built.

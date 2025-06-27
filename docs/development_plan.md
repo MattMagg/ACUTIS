@@ -12,16 +12,17 @@ This document outlines high-level stages for building ACUTIS. The timeline spans
 - Introduce simulation and scanner concepts to exercise the planned workflow.
 
 ## Stage 3: Hardware Prototypes
-- Build an initial collar mechanism and experiment with air-coupled transducers.
-- Evaluate basic data acquisition strategies.
+- Build an initial collar mechanism and design the air-coupled transducer pair.
+- Evaluate basic data acquisition strategies and verify signal quality.
 
 ## Stage 4: Data Acquisition Pipeline
-- Develop software to coordinate collar motion with pulse transmission and reception.
+- Develop software to coordinate collar movement with pulse transmission and reception.
 - Log raw readings for later processing.
 
 ## Stage 5: Signal Processing & Analysis
 - Implement algorithms to detect anomalies in the captured data.
 - Refine techniques through iterative testing on sample poles.
+- Expand the scanner workflow to handle full pole scans automatically.
 
 ## Stage 6: Integrated System Trials
 - Combine hardware and software for full scans.

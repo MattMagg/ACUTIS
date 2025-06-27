@@ -1,18 +1,15 @@
 # ACUTIS Architecture Overview
 
-This document outlines the initial architecture based on the high level plan. It summarises how an air-coupled ultrasonic inspection system might be organised.
+This document outlines the evolving architecture based on the high level plan. It summarises how an air-coupled ultrasonic inspection system might be organised.
 
 ## Components
 
-- **Hardware Abstractions**: notes on transmitters, receivers, and mechanical movement.
+- **Transducer Pair**: the main transmitter and receiver used for through-transmission measurements. See `notes/transducer.md` for design considerations.
+- **Hardware Abstractions**: notes on drivers and mechanical movement of the collar.
 - **Data Acquisition**: ideas for coordinating hardware and logging readings for each collar position.
 - **Processing**: outlines of how captured signals might be analysed.
 - **Command Line Interface**: a proposed way to run simple simulated scans and demonstrate the workflow.
 - **Simulation**: Provides fake signals so development can continue without hardware.
 - **Scanner**: High level orchestrator that ties acquisition and processing together.
 
-These components are currently described only at a conceptual level. Future
-iterations will expand them into full-featured modules that interact with real
-devices and provide sophisticated analysis.
-
-Detailed descriptions of each component can be found in the `notes/` directory.
+These components remain conceptual and will be refined as prototypes are built and tested. Detailed descriptions of each area are kept in the `notes/` directory.

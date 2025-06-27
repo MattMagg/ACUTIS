@@ -17,12 +17,10 @@ All documentation is provided as PDF or RTF files in the repository root. Additi
 The following directories provide a starting framework:
 
 - `docs/` – supplementary design notes and references
-- `docs/notes/` – short descriptions of proposed modules
+- `docs/notes/` – short descriptions of proposed modules, including the main transducer and scanning workflow
 - `tests/` – placeholder test suite
 
-The notes outline ideas for hardware, collar movement, data acquisition,
-signal processing, and a proposed scanning workflow. They exist purely as
-planning material and contain no executable code.
+The notes outline ideas for hardware, collar movement, data acquisition, signal processing, and scanning. They exist purely as planning material and contain no executable code.
 
 ## License
 
