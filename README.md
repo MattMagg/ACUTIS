@@ -19,6 +19,10 @@ The following directories provide a starting framework:
 
 The current code offers simple abstractions for hardware, collar control, data acquisition, and signal processing. These pieces are intentionally lightweight and will evolve as the project matures.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for a brief guide on synchronizing your branch and resolving conflicts.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
