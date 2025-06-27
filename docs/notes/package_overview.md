@@ -10,3 +10,4 @@ Current topics include:
 - Signal processing (`processing.md`)
 - Scanner workflow (`scanner.md`)
 - Simulation ideas (`simulation.md`)
+- Internal agent plan (`../internal_agent_plan.md`)

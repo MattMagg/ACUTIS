@@ -18,6 +18,7 @@ The following directories provide a starting framework:
 
 - `docs/` – supplementary design notes and references
 - `docs/notes/` – short descriptions of proposed modules, including the main transducer and scanning workflow
+- `docs/internal_agent_plan.md` – roadmap used by the agent to guide repository updates
 - `tests/` – placeholder test suite
 
 The notes outline ideas for hardware, collar movement, data acquisition, signal processing, and scanning. They exist purely as planning material and contain no executable code.
