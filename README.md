@@ -1,6 +1,6 @@
 # ACUTIS
 
-ACUTIS is an early stage concept currently represented by a collection of project documents and high level pseudocode modules. The specific implementation language may change as the system grows. This repository lays the groundwork for future development and organization of the idea.
+ACUTIS is an early stage concept represented only by project documents and descriptive notes. No working code has been written yet. The repository simply organizes ideas and provides a place to collect design discussions as the system evolves.
 
 ## Available Documents
 
@@ -17,14 +17,12 @@ All documentation is provided as PDF or RTF files in the repository root. Additi
 The following directories provide a starting framework:
 
 - `docs/` – supplementary design notes and references
-- `src/` – pseudocode modules outlining the planned system
+- `docs/notes/` – short descriptions of proposed modules
 - `tests/` – placeholder test suite
 
-The current files offer descriptive pseudocode for hardware, collar control,
-data acquisition, signal processing, and simple simulation utilities. A high
-level scanner module illustrates how these pieces might interact. Everything in
-`src/` is intentionally non-functional and serves purely as planning notes for
-future development.
+The notes outline ideas for hardware, collar movement, data acquisition,
+signal processing, and a proposed scanning workflow. They exist purely as
+planning material and contain no executable code.
 
 ## License
 
