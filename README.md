@@ -10,7 +10,9 @@ ACUTIS is an early stage concept currently represented by a collection of projec
 - **Invention Disclosure Form** – preliminary intellectual property filing
 - **ProvisionalPatent ACUTIS** – provisional patent paperwork
 
-All documentation is provided as PDF files in the repository root. Additional notes can be kept inside the `docs/` directory.
+All documentation is provided in RTF format in the repository root. The original
+PDF versions were removed to keep the repository lightweight. Additional notes
+can be kept inside the `docs/` directory.
 
 ## Repository Structure
 
