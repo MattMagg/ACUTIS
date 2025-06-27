@@ -1,6 +1,6 @@
 # ACUTIS
 
-ACUTIS is an early stage concept currently represented by a collection of project documents and a small Python codebase. This repository lays the groundwork for future development and organization of the idea.
+ACUTIS is an early stage concept currently represented by a collection of project documents and a small prototype codebase (written in Python for now). The specific implementation language may change as the system grows. This repository lays the groundwork for future development and organization of the idea.
 
 ## Available Documents
 
