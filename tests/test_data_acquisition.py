@@ -1,3 +1,5 @@
+# NOTE: These tests are placeholders and are intentionally skipped until real
+# implementations exist.
 import unittest
 
 from src.acutis.collar import CollarController
