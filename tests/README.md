@@ -1,1 +1,5 @@
-Test cases and supporting utilities will appear here as code is added.
+This directory contains unit tests for the ACUTIS Python modules. Run the tests with:
+
+```
+python -m unittest discover -s tests
+```
