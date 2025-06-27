@@ -1,20 +1,15 @@
-"""Pseudocode for signal processing routines."""
+"""Pseudocode for signal processing routines.
 
-# Algorithms for interpreting the raw ultrasonic readings will be implemented
-# incrementally. This module currently contains high level placeholder functions
-# outlining the expected behaviour.
+This file merely lists ideas for how captured readings might be analysed:
 
+* filtering and normalisation steps to clean the data
+* extraction of features that highlight defects
+* computation of metrics such as attenuation along the pole
 
-def process_signal(readings):
-    """Process a list of raw amplitude values."""
-    # Perform filtering, normalization and feature extraction
-    processed = []
-    for amplitude in readings:
-        # Pseudocode transformation on amplitude
-        processed.append(amplitude)
+The real `process_signal` algorithm will be designed once sample data becomes
+available. Until then the details remain as descriptive notes rather than
+executable code.
+"""
 
-    # Detect anomalies or compute metrics (e.g., attenuation)
-    metrics = {}
-    return processed, metrics
 
 

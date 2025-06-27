@@ -1,27 +1,15 @@
-"""Pseudocode describing a high level scanning workflow."""
+"""Pseudocode describing a high level scanning workflow.
 
-# Combines data acquisition and processing to run a full scan and
-# store the results. This is purely a structural outline.
+The scanner is imagined as an orchestrator that ties data acquisition together
+with signal processing. A future implementation might:
 
-from .data_acquisition import DataAcquisition
-from .processing import process_signal
+1. accept a list of collar positions to inspect
+2. call the data acquisition routines for each position
+3. send the collected readings through the processing pipeline
+4. store or display the resulting metrics
 
+These steps are noted here solely as a descriptive outline and not as runnable
+code.
+"""
 
-class Scanner:
-    """Coordinates a complete pole inspection."""
-
-    def __init__(self, positions):
-        self.positions = positions
-        self.daq = DataAcquisition()
-
-    def run(self):
-        profile = self.daq.scan_profile(self.positions)
-        readings = [amp for _, amp in profile]
-        processed, metrics = process_signal(readings)
-        # Pseudocode: store or display the results
-        return {
-            "raw": profile,
-            "processed": processed,
-            "metrics": metrics,
-        }
 

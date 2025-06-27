@@ -1,24 +1,15 @@
-"""Pseudocode for a simple command line interface."""
+"""Pseudocode for a simple command line interface.
 
-# A basic CLI will allow developers to experiment with the pseudocode modules.
-# It is intentionally lightweight and prints simulated results.
+The CLI concept is intended to demonstrate the pipeline in a textual way:
 
-from .data_acquisition import DataAcquisition
-from .processing import process_signal
+1. parse a list of collar positions from command line arguments
+2. run a simulated data acquisition over those positions
+3. feed the readings into the processing routine
+4. print or store the resulting information
 
+No actual argument parsing or scanning logic is implemented yet. These notes are
+purely descriptive.
+"""
 
-def main(args=None):
-    """Entry point for running a simulated scan."""
-    # Parse positions from the command line (args or sys.argv)
-    positions = []  # e.g. [0, 10, 20]
-
-    daq = DataAcquisition()
-    profile = daq.scan_profile(positions)
-    readings = [amp for _, amp in profile]
-
-    processed, metrics = process_signal(readings)
-    print("Profile:", profile)
-    print("Processed:", processed)
-    print("Metrics:", metrics)
 
 

@@ -20,10 +20,11 @@ The following directories provide a starting framework:
 - `src/` – pseudocode modules outlining the planned system
 - `tests/` – placeholder test suite
 
-The current files offer pseudocode for hardware, collar control, data acquisition,
-signal processing, and simple simulation utilities. A high level scanner module
-demonstrates how these pieces could work together. These placeholders are
-intentionally lightweight and will evolve as the project matures.
+The current files offer descriptive pseudocode for hardware, collar control,
+data acquisition, signal processing, and simple simulation utilities. A high
+level scanner module illustrates how these pieces might interact. Everything in
+`src/` is intentionally non-functional and serves purely as planning notes for
+future development.
 
 ## License
 

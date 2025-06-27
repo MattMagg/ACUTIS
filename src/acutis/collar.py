@@ -1,25 +1,15 @@
-"""Pseudocode describing collar movement control."""
+"""Notes on collar movement control.
 
-# This module sketches how a robotic collar might climb or descend a utility
-# pole. Real motor control code will be provided later once mechanical hardware
-# is defined.
+The real collar will eventually climb or descend a utility pole. At this stage
+we only describe the concept at a high level:
 
+* **CollarController** – imagined manager of the climbing mechanism. It tracks
+  the current height and exposes commands such as `move_to` for absolute
+  positioning and `step` for incremental movements.
 
-class CollarController:
-    """Handles basic collar positioning commands."""
+Motor control and other low level details are intentionally omitted until the
+mechanical design is finalized.
+"""
 
-    def __init__(self):
-        # Initialize state such as current height and motor interfaces
-        self.position = 0.0
-
-    def move_to(self, position):
-        """Move the collar to an absolute height along the pole."""
-        # Pseudocode: command motors to reach the target
-        self.position = position
-
-    def step(self, distance):
-        """Move the collar relative to the current position."""
-        target = self.position + distance
-        self.move_to(target)
 
 

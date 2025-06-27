@@ -1,38 +1,18 @@
-"""High level pseudocode for hardware abstractions."""
+"""High level pseudocode for hardware abstractions.
 
-# Pseudocode classes describing the low level hardware used by ACUTIS. The
-# actual drivers will be implemented in future stages when real devices are
-# available.
+This module no longer defines real classes. Instead it sketches the ideas
+behind the hardware layer:
 
+* **AirCoupledTransducer** – conceptual transmitter or receiver. It would store
+  an identifier and offer operations such as `transmit_pulse` and
+  `receive_echo`.
+* **TransducerPair** – groups a transmitter and a receiver so one can issue a
+  pulse and listen for the response in a single step.
 
-class AirCoupledTransducer:
-    """Represents either a transmitter or a receiver unit."""
+Drivers and detailed implementations will be added once real devices are
+available. For now these notes simply outline the intent of the hardware
+abstractions.
+"""
 
-    def __init__(self, identifier):
-        # Store identifier or hardware port for later use
-        self.identifier = identifier
-
-    def transmit_pulse(self):
-        # Trigger an ultrasonic burst on the hardware
-        pass
-
-    def receive_echo(self):
-        # Return a measured amplitude from the receiver
-        amplitude = None
-        return amplitude
-
-
-class TransducerPair:
-    """Convenience class bundling a transmitter and receiver."""
-
-    def __init__(self, tx_id, rx_id):
-        self.transmitter = AirCoupledTransducer(tx_id)
-        self.receiver = AirCoupledTransducer(rx_id)
-
-    def fire_and_listen(self):
-        # Pseudocode to transmit and capture a reading
-        self.transmitter.transmit_pulse()
-        echo = self.receiver.receive_echo()
-        return echo
 
 

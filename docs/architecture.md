@@ -11,4 +11,6 @@ This document outlines the initial architecture based on the high level plan. It
 - **Simulation**: Provides fake signals so development can continue without hardware.
 - **Scanner**: High level orchestrator that ties acquisition and processing together.
 
-Future iterations will expand these components into full-featured modules that interact with real devices and provide sophisticated analysis.
+These components are currently described only in pseudocode. Future iterations
+will expand them into full-featured modules that interact with real devices and
+provide sophisticated analysis.

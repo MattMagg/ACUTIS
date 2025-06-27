@@ -1,22 +1,15 @@
-"""Package placeholder with pseudocode references."""
+"""Package placeholder with pseudocode references.
 
-# The package exposes basic classes so that other modules or example scripts can
-# import them. All implementations remain high level stubs.
+This package currently contains only descriptive modules. No runnable
+implementations are provided, but the following conceptual pieces are outlined:
 
-from .hardware import AirCoupledTransducer, TransducerPair
-from .collar import CollarController
-from .data_acquisition import DataAcquisition
-from .processing import process_signal
-from .simulation import simulate_echo
-from .scanner import Scanner
+* hardware abstractions
+* collar movement control
+* data acquisition workflow
+* signal processing routines
+* simulation utilities
+* a high level scanner and command line interface
 
-__all__ = [
-    "AirCoupledTransducer",
-    "TransducerPair",
-    "CollarController",
-    "DataAcquisition",
-    "process_signal",
-    "simulate_echo",
-    "Scanner",
-]
+These names are left here as documentation only and are not imported.
+"""
 
